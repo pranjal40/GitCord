@@ -1,0 +1,40 @@
+Q - Write a programm to take input of 5 numbers from the user. Calculate and display their average.
+
+>>
+
+
+
+#include <stdio.h>
+
+int main(){
+
+int a,b,c,d,e,avg;
+
+printf("Enter 1st value: ");
+scanf("%d", &a);
+
+printf("Enter 2nd value: ");
+scanf("%d", &b);
+
+printf("Enter 3rd value: ");
+scanf("%d", &c);
+
+printf("Enter 4th value: ");
+scanf("%d", &d);
+
+printf("Enter 5th value: ");
+scanf("%d", &e);
+
+
+avg = (a+b+c+d+e)/5;
+
+printf("The average of the inputs is: %d \n", avg);
+
+return 0;
+
+} 
+
+
+>> No errors | code executed successfully
+
+

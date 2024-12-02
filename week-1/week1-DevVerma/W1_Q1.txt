@@ -1,0 +1,34 @@
+Q - Write a programm to accept the basic salary and name of an employee. Calculate the total salary including the dearness allowance, EPF, home allowance and basic salary.
+Dearness allowance is 20% of basic salary, EPF is 15%, home allowance is 10%.
+Display the employees total salary and breakdown at the end alongwith his/her name.
+
+>>
+
+#include <stdio.h>
+int main(){
+
+float basic, d_alw,epf,h_alw;
+char name[100];
+
+printf("Enter name of the employee: ");
+gets(name);
+
+printf("Enter the basic salary of employee: ");
+scanf("%f", &basic);
+
+d_alw = basic*0.2;
+epf = basic*0.15;
+h_alw = basic*0.1;
+
+printf("Name: %s \n", name);
+printf("Basic salary: %f \n", basic);
+printf("Dearness Allowance(20%%): %f \n", d_alw);
+printf("EPF(15%%): %f \n", epf);
+printf("Home allowance(10%%): %f \n",h_alw);
+
+return 0;
+}
+
+
+
+>> code executed successfully
