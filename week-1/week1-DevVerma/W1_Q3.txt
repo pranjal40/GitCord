@@ -1,0 +1,24 @@
+Q - Write a programme to calculate the volume of a sphere using the formula:- V = 4/3 π r³
+
+>>
+
+#include <stdio.h>
+
+int main(){
+
+int r;
+float vol;
+
+printf("Enter the radius of sphere (in CM): ");
+scanf("%d", &r);
+
+vol = (4*3.14*r*r*r)/3;
+
+printf("Area of the sphere is: %f sq.CM\n", vol);
+
+return 0;
+}
+
+
+
+>> Code executed successfully
