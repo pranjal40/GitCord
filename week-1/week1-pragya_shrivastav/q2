@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+    char name[50];
+    int basic_salary;
+    float total_salary;
+    printf("enter name: ");
+    scanf("%s",name);
+    printf("enter basic_salary is : ");
+    scanf("%d", &basic_salary);
+    float a, b, c;
+    // a=dearness allowance b=epf c=home allowance//
+    a = (0.2 * basic_salary);
+    b = (0.15 * basic_salary);
+    c = (0.1 * basic_salary);
+    total_salary = basic_salary + a - b + c;
+    printf("total_salary is %f \n", total_salary);
+    printf("dearness allowance is %f \n", a);
+    printf("epf is %f \n", b);
+    printf("home allowance is %f \n", c);
+    return 0;
+}
